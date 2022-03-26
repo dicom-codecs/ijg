@@ -30,8 +30,9 @@
  * in all cases (see below).
  */
 
+#ifndef BITS_IN_JSAMPLE
 #define BITS_IN_JSAMPLE  8	/* use 8, 9, 10, 11, or 12 */
-
+#endif
 
 /*
  * Maximum number of components (color channels) allowed in JPEG image.
@@ -42,7 +43,9 @@
  * bytes of storage, whether actually used in an image or not.)
  */
 
+#ifndef MAX_COMPONENTS
 #define MAX_COMPONENTS  10	/* maximum number of image components */
+#endif
 
 
 /*
